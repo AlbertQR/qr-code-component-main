@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2f0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Outfit, sans-serif;
+}
+
+.card {
+  max-width: 340px;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 30px #b5c2d8;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.card .text-container {
+  margin: 1.25rem 0.75rem;
+}
+
+.card .text-container .title {
+  font-size: 1.35rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #1f3251;
+}
+
+.card .text-container .paragraph {
+  margin-top: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: #7b879d;
+}
