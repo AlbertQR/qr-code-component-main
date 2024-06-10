@@ -20,6 +20,7 @@ main {
 }
 
 .card {
+  margin: 1rem;
   max-width: 340px;
   padding: 1rem;
   text-align: center;
